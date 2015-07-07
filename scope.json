@@ -37,7 +37,7 @@
            "category": false
        },
        "cv": {
-          "title":"Online CV",
+          "title":"Profile",
           "route": "/cv",
           "icon": "",
           "iframe": "http://bite-software.co.uk/cv",
@@ -55,14 +55,32 @@
            "icon": "",
            "route": "/projects/jquery",
            "category": true
+       },
+       "misc": {
+          "title": "Projects",
+           "icon": "",
+           "route": "/projects/misc",
+           "category": true
        }
    },
    "projects": {
+      "airlock": {
+         "author": "JCN",
+         "title": "Airlock",
+         "type": "CSS",
+         "iframe": "http://bite-software.co.uk/airlock",
+         "hidenav": true,
+         "description": "A minimal CSS library making your styles more down to earth.",
+         "repo": "vonKristoff/airlock",
+         "tweet": "",
+         "ga": "XXXX-X",
+         "homepage":true
+      },
        "paxman": {
           "author": "JCN",
            "title": "Paxman",
            "type": "javascript",
-           "iframe": "",
+           "iframe": "http://bite-software.co.uk/paxman",
            "description": "Powerful scrolling engine with masking, vectors, and parallax all bundled in!",
            "repo": "vonKristoff/paxman",
            "tweet": "",
@@ -95,18 +113,18 @@
           "author": "JCN",
            "title": "Conveyor-Belt",
            "type": "jquery",
-           "iframe": "http://bite-software.co.uk/",
+           "iframe": "http://bite-software.co.uk/conveyor",
            "description": "A simple but well adjustable slideshow carousel.",
            "repo": "vonKristoff/conveyor",
            "tweet": "",
            "ga": "XXX4-uv",
-           "homepage":true
+           "homepage":false
        },
        "squiggle": {
           "author": "JCN",
            "title": "Squiggle",
            "type": "jquery",
-           "iframe": "http://bite-software.co.uk/",
+           "iframe": "http://bite-software.co.uk/squiggle",
            "description": "Scribbling out content with canvas",
            "repo": "vonKristoff/squiggle",
            "tweet": "",
@@ -117,7 +135,7 @@
           "author": "JCN",
            "title": "highrise",
            "type": "jquery",
-           "iframe": "http://bite-software.co.uk/",
+           "iframe": "http://bite-software.co.uk/highrise",
            "description": "A lightbox like plugin; highlighting your content",
            "repo": "vonKristoff/highrise",
            "tweet": "",
@@ -128,7 +146,7 @@
           "author": "JCN",
            "title": "nebula",
            "type": "jquery",
-           "iframe": "http://bite-software.co.uk/",
+           "iframe": "http://bite-software.co.uk/nebula",
            "description": "The sister to Shards; a multi-layered radial gradient effect generated with CSS3",
            "repo": "vonKristoff/nebula",
            "tweet": "",
@@ -150,7 +168,7 @@
           "author": "JCN",
            "title": "jumble",
            "type": "jquery",
-           "iframe": "http://bite-software.co.uk/",
+           "iframe": "http://bite-software.co.uk/jumble",
            "description": "Jumbles up the colours of your text.",
            "repo": "vonKristoff/jumble",
            "tweet": "",
