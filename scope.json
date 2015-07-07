@@ -1,0 +1,161 @@
+{
+   "_id": "config",
+   "_rev": "59-4988e97f762991223a158177692853ad",
+   "general": {
+       "email": "mrjcnicolas@gmail.com",
+       "twitter": "@vonKristoff",
+       "github": "vonKristoff",
+       "ga": "XXXX-X",
+       "available": true
+   },
+  "developers": {
+    "jean": {
+      "name": "JCN",
+      "email": "mrjcnicolas@gmail.com",
+      "twitter": "@vonKristoff",
+      "github": "vonKristoff",
+      "avatar": "img/vonk.png",
+      "colour": "#fff",
+      "specialist": ["Javascript"]
+    },
+     "tim": {
+      "name": "TS",
+      "email": "mrjcnicolas@gmail.com",
+      "twitter": "@vonKristoff",
+      "github": "vonKristoff",
+      "avatar": "img/vk.png",
+      "colour": "#fff",
+      "specialist": ["iOS"]
+    }
+  },
+   "pages": {
+      "home": {
+           "title": "Home",
+           "icon": "",
+           "route": "/",
+           "iframe": null,
+           "category": false
+       },
+       "cv": {
+          "title":"Online CV",
+          "route": "/cv",
+          "icon": "",
+          "iframe": "http://bite-software.co.uk/cv",
+          "hidenav": true,
+          "category": false
+       },
+       "javascript": {
+           "title": "Javascript",
+           "route": "/projects/javascript",
+           "icon": "",
+           "category": true
+       },
+       "jquery": {
+           "title": "jQuery Plugins",
+           "icon": "",
+           "route": "/projects/jquery",
+           "category": true
+       }
+   },
+   "projects": {
+       "paxman": {
+          "author": "JCN",
+           "title": "Paxman",
+           "type": "javascript",
+           "iframe": "",
+           "description": "Powerful scrolling engine with masking, vectors, and parallax all bundled in!",
+           "repo": "vonKristoff/paxman",
+           "tweet": "",
+           "ga": "XXXX-X",
+           "homepage":true
+       },
+       "shards": {
+          "author": "JCN",
+           "title": "Shards",
+           "type": "javascript",
+           "iframe": "http://bite-software.co.uk/shards",
+           "description": "Builds a CSS multi-layered gradient background on any element - resembling neon shards!",
+           "repo": "vonKristoff/Shards",
+           "tweet": "",
+           "ga": "XXX4-uv",
+           "homepage":true
+       },
+       "offreg": {
+          "author": "JCN",
+           "title": "OffReg",
+           "type": "jquery",
+           "iframe": "http://bite-software.co.uk/offreg",
+           "description": "Using Canvas to create a 'screen print' offset effect on an image, by altering the pixel data.",
+           "repo": "vonKristoff/offreg",
+           "tweet": "",
+           "ga": "XXX4-uv",
+           "homepage":true
+       },
+       "conveyor": {
+          "author": "JCN",
+           "title": "Conveyor-Belt",
+           "type": "jquery",
+           "iframe": "http://bite-software.co.uk/",
+           "description": "A simple but well adjustable slideshow carousel.",
+           "repo": "vonKristoff/conveyor",
+           "tweet": "",
+           "ga": "XXX4-uv",
+           "homepage":true
+       },
+       "squiggle": {
+          "author": "JCN",
+           "title": "Squiggle",
+           "type": "jquery",
+           "iframe": "http://bite-software.co.uk/",
+           "description": "Scribbling out content with canvas",
+           "repo": "vonKristoff/squiggle",
+           "tweet": "",
+           "ga": "XXX4-uv",
+           "homepage":true
+       },
+       "highrise": {
+          "author": "JCN",
+           "title": "highrise",
+           "type": "jquery",
+           "iframe": "http://bite-software.co.uk/",
+           "description": "A lightbox like plugin; highlighting your content",
+           "repo": "vonKristoff/highrise",
+           "tweet": "",
+           "ga": "XXX4-uv",
+           "homepage":true
+       },
+       "nebula": {
+          "author": "JCN",
+           "title": "nebula",
+           "type": "jquery",
+           "iframe": "http://bite-software.co.uk/",
+           "description": "The sister to Shards; a multi-layered radial gradient effect generated with CSS3",
+           "repo": "vonKristoff/nebula",
+           "tweet": "",
+           "ga": "XXX4-uv",
+           "homepage":true
+       },
+       "starscroll": {
+          "author": "JCN",
+           "title": "Starscroll",
+           "type": "jquery",
+           "iframe": "http://bite-software.co.uk/starscroll",
+           "description": "A freaking parallax scrolling starfield!",
+           "repo": "vonKristoff/starscroll",
+           "tweet": "",
+           "ga": "XXX4-uv",
+           "homepage":true
+       },
+       "jumble": {
+          "author": "JCN",
+           "title": "jumble",
+           "type": "jquery",
+           "iframe": "http://bite-software.co.uk/",
+           "description": "Jumbles up the colours of your text.",
+           "repo": "vonKristoff/jumble",
+           "tweet": "",
+           "ga": "XXX4-uv",
+           "homepage":false
+       }
+   }
+}

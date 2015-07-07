@@ -1,0 +1,13 @@
+.bite-fixed-logo--light
+.developers
+  .dev-header DEVELOPERS
+  //- .bite-sphere -- for later
+  ul.devs
+    each val, key in format.developers
+      a(href=val.name)
+        li.dev-container(data-avatar=val.avatar data-tag=val.colour data-name=val.name)
+          ul.dev-ops
+            li.dev--name= val.name
+            li.dev--special= val.specialist
+  .dev-footer
+    p For Profile infomation, click on an face.

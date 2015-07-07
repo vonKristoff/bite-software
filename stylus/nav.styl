@@ -1,0 +1,109 @@
+.space--nav
+  z-index 101
+  position fixed
+  top 0
+  left 0
+  width 100%
+  background rgba(0,0,0,.1)
+  border-bottom 1px solid rgba(255,255,255,0.35)
+  .nav--main
+    @media screen and (max-width: 768px)
+      position absolute
+      width 75%
+  .airlock
+    m(0, 1em)
+    @media screen and (max-width: 768px)
+      // height 0
+      margin 6em 12.5%
+      &.active
+        li
+          display block
+    li
+      display inline-block
+      @media screen and (max-width: 768px)
+        display none
+  .nav--item
+    m(0.25em, 0.25em)
+    display inline-block
+    wh(5em,5em)
+    position absolute
+    top 0
+    transition all .3s
+    background transparent
+    border-radius 0%
+    &:hover
+      background-color rgba(255,255,255,.35)
+      border-radius 50%
+      cursor pointer
+      .icon
+        fill #555
+    .icon
+      width 100%
+      height 100%
+      fill rgba(255,255,255,.8)
+    &.email
+      left 5em
+      span
+        left 5em
+        padding-top 1em
+        @media screen and (max-width: 768px)
+          visibility hidden
+    &.github
+      right 0
+    &.hire
+      position absolute
+      top  1em
+      right 6em
+      box-shadow 0 0 5px rgba(0,0,0,0.425)
+      width 3em
+      height 3em
+      border-radius 50%
+      border 1px solid rgba(0,0,0,0.05)
+      background #a00
+      background-image radial-gradient(50% 50%,rgba(255,200,200,0.5),rgba(255,255,255,0.2))
+      &.yes
+        background #5f5
+        background-image radial-gradient(50% 50%,rgba(255,255,255,0.75),rgba(255,255,255,0.2))
+      span
+        text-decoration line-through
+        margin-left -11em
+        @media screen and (max-width: 768px)
+          visibility hidden
+        &.avail
+          text-decoration none
+    &.burger-menu
+      margin .25em
+      display none
+      color white
+      left calc(50% - 2.5em)
+      @media screen and (max-width: 768px)
+        display block
+    span
+      color #ddd
+      font-size 1em
+      top 1em
+      position absolute
+      width 10em
+&.hidenav
+  top -5em
+  transition all .3s
+  border-bottom 1.5em solid rgba(255,255,255,0.35)
+  @media screen and (max-width: 768px)
+    height 6em
+  &:hover
+    background rgba(0,0,0,.35)
+    top 0em
+    border-bottom 1px solid rgba(255,255,255,0.35)
+
+/***
+* burger nav close button
+***/
+
+.mobile-close
+  display none
+  position fixed
+  bottom 1em
+  right 1em
+  &.active
+    display block
+    

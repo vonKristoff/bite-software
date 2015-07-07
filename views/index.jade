@@ -1,0 +1,24 @@
+extends structure
+  
+block header
+  if format.custom
+    .space--nav(class='hidenav')
+      include partials/nav
+  else
+    .space--nav
+      include partials/nav
+
+block content
+  .pages-container
+    .space.page-a
+      if format.collection
+        include partials/collection
+      if format.frame
+        include partials/bite-frame
+      if format.custom
+        include partials/custom
+    if format.collection
+      .space.page-b
+        include partials/developers
+  .mobile-close
+    +evil('ei-close')

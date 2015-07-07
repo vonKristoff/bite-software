@@ -1,0 +1,15 @@
+.bite-fixed-logo--dark
+.capsule.main(role="collection")
+  ul.bite-sphere
+    for val, key in format.collection
+      li(data-src=val.title)
+        input(type="hidden" data-author=val.author data-description=val.description data-type=val.type data-title=val.title)
+        a(href=val.iframe)
+          .sphere-container
+            .sphere--title
+              p= val.title
+  .bite-description
+    .author
+    .type
+    .title
+    .description

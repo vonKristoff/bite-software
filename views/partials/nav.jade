@@ -1,0 +1,21 @@
+include ./mixins
+
+.capsule
+  input(type="hidden" role="project-data" value=projects)
+  .nav--item.burger-menu
+   +evil('ei-navicon')
+  ul.nav--main.airlock.tx
+    each val, key in pages
+      li
+        a(href=val.route)
+          button(class=(key.toLowerCase() === current)? 'current' : '').airpress.navigate= pages[key].title
+  .nav--item.forhire(class= general.available)
+  .nav--item.github(data-link= general.github)
+    +evil('ei-sc-github')
+  .nav--item.twitter(data-link=general.twitter)
+    +evil('ei-sc-twitter')
+  .nav--item.email(data-link=general.email)
+    +evil('ei-envelope')
+    span.tx-l DROP US A LINE!
+  .nav--item.hire.yes(class=general.available)
+    span.avail.tx-r AVAILABLE FOR HIRE

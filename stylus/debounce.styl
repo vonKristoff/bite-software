@@ -1,0 +1,29 @@
+[class*="page-"]
+  height 100vh
+  width 100%
+  opacity .99
+  overflow hidden
+  position relative
+
+.page-a
+  z-index 0
+  &.active
+    z-index 100
+  &.scrolling
+    z-index 0
+.page-b
+  border-top 1px solid rgba(55,255,175,.5)
+  // background rgba(0, 117, 128, 1)
+  background linear-gradient(bottom left, rgba(0, 117, 128, 1), rgba(0, 187, 128, 1))
+  z-index 0
+  &.active
+    z-index 100
+
+[class*="thing"]
+  position fixed
+  top 0
+  left calc(50% - 250px)
+  width 500px
+  height 500px
+  border-radius 50%
+  // transform translateZ(0)
