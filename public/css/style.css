@@ -502,7 +502,7 @@ html {
   background-size: cover;
 }
 body {
-  font-family: geomanist "Fira Sans";
+  font-family: "geomanist" "Fira Sans" Arial;
   font-size: 12px;
   background-color: transparent;
 }
