@@ -264,7 +264,6 @@
       navclose = $('.mobile-close');
 
   nav.on('click', function (e){
-    
     toggleNav()
   })
   navclose.on('click', function (e){
@@ -284,6 +283,20 @@
       navclose.removeClass('active')
     }
   }
+
+  // email toggle
+
+  var mail = false,
+      emailbtn = $('.email'),
+      econtainer = $('.email-float'),
+      eclose = $('span.ei');
+
+  emailbtn.on('click', function (e){
+    econtainer.addClass('active')
+  })
+  eclose.on('click', function(e){
+    econtainer.removeClass('active')
+  })
 
 
 

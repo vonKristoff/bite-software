@@ -688,6 +688,57 @@ a:visited {
   top: 0em;
   border-bottom: 1px solid rgba(255,255,255,0.35);
 }
+.email-float {
+  position: absolute;
+  display: block;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  color: #fff;
+  top: 6em;
+  left: -200px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #000;
+}
+.email-float span {
+  padding: 1em;
+  float: left;
+  color: #fff;
+}
+.email-float span.ei {
+  padding-bottom: 0;
+  padding-top: 0.5em;
+}
+.email-float span.ei:hover {
+  cursor: pointer;
+}
+.email-float span:first-child {
+  padding-left: 2em;
+}
+.email-float span .icon {
+  fill: #fff;
+}
+.email-float .clear {
+  zoom: 1;
+}
+.email-float .clear:before,
+.email-float .clear:after {
+  content: "";
+  display: table;
+}
+.email-float .clear:after {
+  clear: both;
+}
+.email-float.active {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+  left: 0;
+}
 .mobile-close {
   display: none;
   position: fixed;
