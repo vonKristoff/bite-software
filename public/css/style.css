@@ -506,6 +506,13 @@ body {
   font-size: 12px;
   background-color: transparent;
 }
+@font-face {
+  font-family: "geomanist";
+  src: url("http://176.126.241.139:67/geomanist-regular/geomanist-regular.eot");
+  src: url("http://176.126.241.139:67/geomanist-regular/geomanist-regular.svg#geomanist") format('svg'), url("http://176.126.241.139:67/geomanist-regular/geomanist-regular.ttf") format('truetype'), url("http://176.126.241.139:67/geomanist-regular/geomanist-regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 ul,
 li {
   list-style: none;
