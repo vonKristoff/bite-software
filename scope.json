@@ -31,7 +31,6 @@
    "pages": {
       "home": {
            "title": "Home",
-           "icon": "",
            "route": "/",
            "iframe": null,
            "category": false
@@ -39,27 +38,13 @@
        "cv": {
           "title":"Profile",
           "route": "/cv",
-          "icon": "",
           "iframe": "http://bite-software.co.uk/cv",
           "hidenav": true,
           "category": false
        },
-       "javascript": {
-           "title": "Javascript",
-           "route": "/projects/javascript",
-           "icon": "",
-           "category": true
-       },
        "jquery": {
            "title": "jQuery Plugins",
-           "icon": "",
            "route": "/projects/jquery",
-           "category": true
-       },
-       "misc": {
-          "title": "Projects",
-           "icon": "",
-           "route": "/projects/misc",
            "category": true
        }
    },
