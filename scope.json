@@ -49,6 +49,18 @@
        }
    },
    "projects": {
+      "matrixt": {
+         "author": "JCN",
+         "title": "Matrixt",
+         "type": "Javascript",
+         "iframe": "http://bite-software.co.uk/matrixt",
+         "hidenav": true,
+         "description": "Cool text/scroll effect, PLUS a live input field.",
+         "repo": "vonKristoff/",
+         "tweet": "",
+         "ga": "XXXX-X",
+         "homepage":true
+      },
       "airlock": {
          "author": "JCN",
          "title": "Airlock",
@@ -136,7 +148,7 @@
            "repo": "vonKristoff/nebula",
            "tweet": "",
            "ga": "XXX4-uv",
-           "homepage":true
+           "homepage":false
        },
        "starscroll": {
           "author": "JCN",
