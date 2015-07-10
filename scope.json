@@ -49,6 +49,18 @@
        }
    },
    "projects": {
+      "lazers": {
+         "author": "JCN",
+         "title": "SVG LAZERS",
+         "type": "Javascript",
+         "iframe": "http://bite-software.co.uk/lazers",
+         "hidenav": true,
+         "description": "SVG field of rays; experiment with animating with SVG and Snap.svg library",
+         "repo": "vonKristoff/",
+         "tweet": "",
+         "ga": "XXXX-X",
+         "homepage":true
+      },
       "matrixt": {
          "author": "JCN",
          "title": "Matrixt",
