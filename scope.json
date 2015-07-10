@@ -51,7 +51,7 @@
    "projects": {
       "lazers": {
          "author": "JCN",
-         "title": "SVG LAZERS",
+         "title": "Lazers",
          "type": "Javascript",
          "iframe": "http://bite-software.co.uk/lazers",
          "hidenav": true,
