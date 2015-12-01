@@ -49,6 +49,18 @@
        }
    },
    "projects": {
+      "whittle": {
+         "author": "JCN",
+         "title": "Frank Whittle",
+         "type": "html",
+         "iframe": "http://bite-software.co.uk/whittle-timeline",
+         "hidenav": true,
+         "description": "Static site illustrating the historic path leading to the invention of the jet engine",
+         "repo": "vonKristoff/whittle-timeline",
+         "tweet": "",
+         "ga": "XXXX-X",
+         "homepage":true
+      },
       "lazers": {
          "author": "JCN",
          "title": "Lazers",
